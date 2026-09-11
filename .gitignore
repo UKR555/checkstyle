@@ -46,3 +46,12 @@ replay_pid*
 # antlr4 grammar generates these
 **/gen
 **/JavaLanguageLexer.tokens
+
+# Security & Secrets
+.env
+.env.*
+*.pem
+*.key
+node_modules/
+venv/
+.venv/
